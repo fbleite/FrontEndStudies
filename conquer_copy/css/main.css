@@ -61,11 +61,22 @@ body {
   .header-content {
     width: 100%;
     position: relative;
-    top: 40%;
+    top: 35%;
+    color: #FFFFFF;
   }
 
   h1, h4 {
     margin: 0px;
     text-align: center;
+    font-weight: 500;
   }
 
+  h1 {
+    font-size: 70px;
+    text-shadow: 2px 2px #000000;
+  }
+
+  h4 {
+    font-size: 25px;
+    text-shadow: 1px 1px #000000;
+  }
