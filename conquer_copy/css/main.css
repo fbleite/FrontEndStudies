@@ -75,16 +75,21 @@ body {
   color: #FFFFFF;
 }
 
-h1,
-h4 {
+
+h1, h2, h3, h4 {
   text-align: center;
   font-weight: 500;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 36px;
 }
 
 /* Seems like a lot of posiitoning is dine from margin and padding */
+.header-content 
 h1 {
   font-size: 70px;
-  line-height: 77px;
   text-shadow: 2px 2px #000000;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -92,7 +97,6 @@ h1 {
 
 h2 {
   font-size: 20px;
-  line-height: 22px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -101,7 +105,6 @@ h2 {
 
 h4 {
   font-size: 25px;
-  line-height: 27.5px;
   text-shadow: 1px 1px #000000;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -260,3 +263,78 @@ a {
 #br-fudge {
   line-height: 20px;
 }
+
+
+.services-img {
+  background-image: url("../img/bg-2.jpg");
+  width: 100%;
+  margin-top: 60px;
+  padding-top: 65px;
+  padding-bottom: 80px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.services-title {
+  color: white;
+  text-align: center;
+}
+
+.services-title h1 {
+  text-shadow: 2px 2px #AAAAAA;
+  margin-bottom: 20px;
+}
+
+.services-title p {
+  font-size: 18px;
+}
+
+.row-4column {
+  padding-top: 70px;
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+  width: 1170px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.column-4column {
+  background-color: #F2F2F2;
+  width: 25%;
+  margin-left: 16.5px;
+  margin-right: 16.5px;
+  height: 500px;
+  text-align: center;
+}
+
+.testmonial-content {
+  padding: 10px 20px;
+  color: #333333;
+  text-align: left;
+}
+
+.testmonial-button {
+    color: #666666;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    line-height: 1.42857143;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+    display:inline-block;
+    text-align: center;
+  }
+  
+.testmonial-button:hover  {
+    color: #23527c;
+    text-decoration: none;
+    background-color: #E6E6E6;
+  }
